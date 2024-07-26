@@ -1,12 +1,13 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="flex justify-center items-center">
-      <div className="text-center">
-        <h1 className="text-3xl">Your Blank Canvas</h1>
-        <p>Chat with the agent to start making edits.</p>
-      </div>
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-6">Welcome to Our Website</h1>
+      <p className="text-lg mb-4">
+        This is a simple layout with a navbar. You can add more content and features as needed.
+      </p>
+      <Button>Get Started</Button>
     </div>
   );
 };
